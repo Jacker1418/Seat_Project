@@ -1,0 +1,742 @@
+Dependencies for Project 'Seat_Project', Target 'Seat_Project': (DO NOT MODIFY !)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x57EFFCD8)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\stm32f1xx_hal_gpio.o --omf_browse seat_project\stm32f1xx_hal_gpio.crf --depend seat_project\stm32f1xx_hal_gpio.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x57EFFCD8)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\stm32f1xx_hal_pwr.o --omf_browse seat_project\stm32f1xx_hal_pwr.crf --depend seat_project\stm32f1xx_hal_pwr.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x57EFFCD8)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\stm32f1xx_hal_cortex.o --omf_browse seat_project\stm32f1xx_hal_cortex.crf --depend seat_project\stm32f1xx_hal_cortex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x57EFFCD8)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\stm32f1xx_hal_flash.o --omf_browse seat_project\stm32f1xx_hal_flash.crf --depend seat_project\stm32f1xx_hal_flash.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x57EFFCD8)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\stm32f1xx_hal_tim_ex.o --omf_browse seat_project\stm32f1xx_hal_tim_ex.crf --depend seat_project\stm32f1xx_hal_tim_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x58241E0F)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\stm32f1xx_hal_uart.o --omf_browse seat_project\stm32f1xx_hal_uart.crf --depend seat_project\stm32f1xx_hal_uart.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c)(0x582030AD)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\stm32f1xx_hal_i2c.o --omf_browse seat_project\stm32f1xx_hal_i2c.crf --depend seat_project\stm32f1xx_hal_i2c.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c)(0x57EFFCD8)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\stm32f1xx_hal_rtc_ex.o --omf_browse seat_project\stm32f1xx_hal_rtc_ex.crf --depend seat_project\stm32f1xx_hal_rtc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x57EFFCD8)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\stm32f1xx_hal_tim.o --omf_browse seat_project\stm32f1xx_hal_tim.crf --depend seat_project\stm32f1xx_hal_tim.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x57EFFCD8)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\stm32f1xx_hal_flash_ex.o --omf_browse seat_project\stm32f1xx_hal_flash_ex.crf --depend seat_project\stm32f1xx_hal_flash_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x57EFFCD8)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\stm32f1xx_hal.o --omf_browse seat_project\stm32f1xx_hal.crf --depend seat_project\stm32f1xx_hal.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x57EFFCD8)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\stm32f1xx_hal_gpio_ex.o --omf_browse seat_project\stm32f1xx_hal_gpio_ex.crf --depend seat_project\stm32f1xx_hal_gpio_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c)(0x5824BF2F)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\stm32f1xx_hal_rtc.o --omf_browse seat_project\stm32f1xx_hal_rtc.crf --depend seat_project\stm32f1xx_hal_rtc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x57EFFCD8)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\stm32f1xx_hal_rcc_ex.o --omf_browse seat_project\stm32f1xx_hal_rcc_ex.crf --depend seat_project\stm32f1xx_hal_rcc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x57EFFCD8)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\stm32f1xx_hal_dma.o --omf_browse seat_project\stm32f1xx_hal_dma.crf --depend seat_project\stm32f1xx_hal_dma.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x57EFFCD8)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\stm32f1xx_hal_rcc.o --omf_browse seat_project\stm32f1xx_hal_rcc.crf --depend seat_project\stm32f1xx_hal_rcc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+F (../Src/stm32f1xx_hal_msp.c)(0x5822652B)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\stm32f1xx_hal_msp.o --omf_browse seat_project\stm32f1xx_hal_msp.crf --depend seat_project\stm32f1xx_hal_msp.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+F (../Src/main.c)(0x5824D2F4)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\main.o --omf_browse seat_project\main.crf --depend seat_project\main.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+F (../Src/stm32f1xx_it.c)(0x581E2FA6)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\stm32f1xx_it.o --omf_browse seat_project\stm32f1xx_it.crf --depend seat_project\stm32f1xx_it.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+I (../Inc/stm32f1xx_it.h)(0x581B3A50)
+F (..\Src\I2C_MPR121.c)(0x5822CAF1)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\i2c_mpr121.o --omf_browse seat_project\i2c_mpr121.crf --depend seat_project\i2c_mpr121.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+F (..\Src\RTC_Android.c)(0x5824CE5C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\rtc_android.o --omf_browse seat_project\rtc_android.crf --depend seat_project\rtc_android.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+F (..\Src\Timer.c)(0x581F1315)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\timer.o --omf_browse seat_project\timer.crf --depend seat_project\timer.d)
+I (../Inc/Timer.h)(0x581D1870)
+F (.\Uart.c)(0x58247075)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\uart.o --omf_browse seat_project\uart.crf --depend seat_project\uart.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+F (../Drivers/CMSIS//Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c)(0x57EFFCCA)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\MDK-ARM --C99-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o seat_project\system_stm32f1xx.o --omf_browse seat_project\system_stm32f1xx.crf --depend seat_project\system_stm32f1xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x57EFFCCA)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3016)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57EFFCD7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x57EFFCCA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x582242E1)
+I (../Inc/stm32f1xx_hal_conf.h)(0x582260F3)
+I (../Inc/mxconstants.h)(0x581B3A50)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57EFFCD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3016)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x581EE029)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h)(0x57EFFCD7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x58241D3F)
+I (..\MDK-ARM\Uart.h)(0x58242E00)
+I (../Inc/I2C_MPR121.h)(0x58224C56)
+I (../Inc/RTC_Android.h)(0x5824B888)
+F (startup_stm32f103xb.s)(0x581B3A55)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I"D:\Programming\Keil Studio\Seat Project[Prototype]\Seat_Project\MDK-ARM\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include--pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list startup_stm32f103xb.lst --xref -o seat_project\startup_stm32f103xb.o --depend seat_project\startup_stm32f103xb.d)
+F (.\ReadMe.txt)(0x581D196C)()
